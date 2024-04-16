@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('https://images.pexels.com/photos/386025/pexels-photo-386025.jpeg?auto=compress&cs=tinysrgb&w=600'); /* Add your background image URL here */
+    background-size: cover;
+    font-family: Arial, sans-serif;
+}
+
+.search-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.search-bar {
+    padding: 10px;
+    width: 300px;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+}
+
+.search-btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    background-color: blue;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.search-btn:hover {
+    background-color: rgb(0, 44, 110); 
+}
